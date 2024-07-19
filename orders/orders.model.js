@@ -17,8 +17,8 @@ const orders = [
 
 function getAllOrders() {
 	return orders;
-}
+};
 
-exports.modules = {
+module.exports = {
 	getAllOrders
-}
+};
